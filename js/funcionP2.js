@@ -1,8 +1,10 @@
-function insertar_ralph(){
+function funcionxd(){
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext("2d");
-    var imagen;
-    imagen = new Image();
-    imagen.src = 'img/img1.jpg';
-    ctx.drawImage(imagen, 32.5, 100, 450, 200);
+    var imagen1;
+    imagen1 = new Image();
+    imagen1.src = 'img/img01.jpg';
+    imagen1.onload = function (){
+        ctx.drawImage(imagen1, 0, 0, canvas.width, canvas.height);
+    }   
 }
