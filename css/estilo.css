@@ -11,6 +11,17 @@ div.contenedor {
 div.juego {
 
 }
+
+#boton1{
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+}
+
+#botoncom{
+    font-weight: 600;
+    font-size: 20px;
+}
 div.juego canvas {
     box-shadow: 0 0 30px #000;
     background: url("https://images6.alphacoders.com/330/330786.jpg") no-repeat left;
