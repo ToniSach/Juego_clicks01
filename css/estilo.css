@@ -13,7 +13,7 @@ div.juego {
 }
 div.juego canvas {
     box-shadow: 0 0 30px #000;
-    background: url("../img/pfondo2.JPG") no-repeat left;
+    background: url("../pfondo2.JPG") no-repeat left;
     background-attachment: 319px;
 }
 div.derecha {
