@@ -126,7 +126,6 @@ var zz=0;
 function comprobar(){
     if (i>=10) {
         alert("has ganado un punto")
-        score++;
         zz=1;
         if (zz=1) {
             document.getElementById('botoncom').disabled=false;
